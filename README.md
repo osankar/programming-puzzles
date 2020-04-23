@@ -1,2 +1,3 @@
 # programming-puzzles
-This repo explores the MIT's Programming for Puzzled course in Golang
+I recently came across MIT's Programming for Puzzled course by Srini Devdas. I found it to be a fun way of learning problem solving for programmers. The course discusses a dozen of puzzles and their solutions in Python. Being new to Golang and inpsired by the course, it would be a great way for me explore the course and formulate the solutions in Golang. 
+I will try my best to describe the problem and the solutions in a language neutral way and then provide the solutions in Golang. Hopefully this will benefit the people looking for fun ways to learn programming for problem solving along with me. 

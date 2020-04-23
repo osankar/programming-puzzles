@@ -34,3 +34,13 @@ Algorithmically,
     * if the direction of the visor is not same as the visor, start the range
     * else give the command to flip from start of the range to previous index
     
+There's one edge case that we miss with the above algorithm, F, F, B, F, B, B  for this example the algorithm misses the last range [4,5] as there's no change of visor direction which is used to range end detection. If we add the [0]the direction at the end of the list, it works as the range end condition for this case and has no adverse affect for the case like B, F, B, F, F, F, B, F
+
+
+Update Algorithm,
+* Use the first direction [0] as the pivot
+* Add the direction[0] to the end of the queue. 
+* Iterate over the queue from 1 to size-1
+    * if the direction of the current visor is same as the previous visor, continue
+    * if the direction of the visor is not same as the visor, start the range
+    * else give the command to flip from start of the range to previous index

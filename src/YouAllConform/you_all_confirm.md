@@ -1,4 +1,4 @@
-#Puzzle:
+# Puzzle: #
 
 There is a queue of people standing to enter an event. All the people are wearing caps. Some of therm are wearing the cap with visor/bill facing forward and the others are wearing the with visor/bill facing backwards. 
 Every person in the queue holds a token that tells their position in the queue. The gatekeeper want to let the people in after everyone in the queue wears the cap in the same direction; either visor backwards or forwards.
@@ -11,7 +11,7 @@ The commands can be like,
 For example, if the cap visor direction of the people in queue are F, B, B, B, F,F,F,B,F,B,F,F where F denotes forwards and B denoted backwards.
 Assuming the token numbers start at 0, the solution here to flip [1-3], [7-7], [9-9]
 
-#Solution Approach
+# Solution Approach: #
 
 
 The brute force approach is to find out how many ranges are there for the forwards and backwards by iterating through the queue. Whichever has rge less number of ranges, use those ranges to give flip cap command. 

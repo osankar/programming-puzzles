@@ -4,4 +4,4 @@ I recently came across MIT's Programming for Puzzled course by Srini Devdas. I f
 I will try my best to describe the problem and the solutions in a language neutral way and then provide the solutions in Golang. Further, I will explore the possible variation of the problem and how that will impact the solution approach. Hopefully this will benefit the people looking for fun ways to learn programming for problem solving along with me. 
 
 ## Puzle 1: [You All Conform](https://github.com/osankar/programming-puzzles/tree/master/src/YouAllConform)
-## Puzle 2: [Best Time to Party](https://github.com/osankar/programming-puzzles/tree/master/src/YouAllConform)
+## Puzle 2: [Best Time to Party](https://github.com/osankar/programming-puzzles/tree/master/src/CelebrityParty)

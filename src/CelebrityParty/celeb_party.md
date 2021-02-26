@@ -4,7 +4,7 @@ We are given a list of intervals that correspond to when each celebrity comes an
 
 Here’s an example: 
 
-Celebrity     |Comes          | Goes  |
+Celebrity     |Enters          | Leaves  |
 ------------- | ------------- |-------|
 Beyoncé       | 6  |7|
 Taylor  | 7   | 9|
